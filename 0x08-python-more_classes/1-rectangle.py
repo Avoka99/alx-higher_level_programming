@@ -9,7 +9,7 @@ Private Attributes:
     height (int): The height of the rectangle.
 
 Public Methods:
-    __init__(self, width=0, height=0): Initializes a new instance of the Rectangle class.
+    __init__(self, width=0, height=0): Initializes a new instance
 """
 
 
@@ -87,4 +87,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
